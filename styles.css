@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabeçalho {
+    background-color: #ffcc00; /* Amarelo */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__menu-hamburguer {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-menu__titulo {
+    font-weight: bold;
+    color: #d50000; /* Vermelho */
+    margin-bottom: 10px;
+}
+
+.lista-menu__item {
+    margin: 5px 0;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.lista-menu__link:hover {
+    color: #d50000; /* Vermelho */
+}
+
+.banner {
+    background-image: url('img/turma-da-monica-bg.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner__texto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner__pesquisa {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.carrossel {
+    margin: 40px 0;
+}
+
+.carrossel__titulo {
+    font-size: 2em;
+    color: #ff5722; /* Laranja */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ff5722; /* Laranja */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descrição {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.descrição__titulo {
+    font-size: 1.5em;
+    color: #d50000; /* Vermelho */
+}
+
+.descrição__titulo-livro {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.descrição__texto {
+    font-size: 1em;
+    color: #666;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botões {
+    display: flex;
+    list-style: none;
+}
+
+.botões__item {
+    margin-right: 10px;
+}
+
+.botões__ancora {
+    text-decoration: none;
+    color: #ff5722; /* Laranja */
+    font-weight: bold;
+}
+
+.tópicos {
+    margin: 40px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tópicos__titulo {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tópicos__lista {
+    list-style: none;
+}
+
+.tópicos__item {
+    margin: 5px 0;
+}
+
+.tópicos__link {
+    text-decoration: none;
+    color: #ff5722; /* Laranja */
+}
+
+.contato {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffcc00; /* Amarelo */
+}
+
+.contato__titulo {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contato__texto {
+    margin-bottom: 20px;
+}
+
+.contato__email {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.rodapé {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
